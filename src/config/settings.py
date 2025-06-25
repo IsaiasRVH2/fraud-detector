@@ -1,8 +1,7 @@
 import dotenv
 import os
-# Load environment variables from .env file
-dotenv.load_dotenv()
 
+dotenv.load_dotenv()
 # Define the settings class
 class Settings:
     """
@@ -28,4 +27,6 @@ class Settings:
         self.kaggle_username = os.getenv("KAGGLE_USERNAME", "default_username")
         self.kaggle_key = os.getenv("KAGGLE_KEY", "default_key")
         
-settings = Settings()
+def load_settings():
+    settings = Settings()
+    return settings
