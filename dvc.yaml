@@ -4,4 +4,4 @@ stages:
     deps:
     - config/data_config.yaml
     outs:
-    - data/raw
+    - data/raw/creditcard.csv
