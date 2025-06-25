@@ -1,0 +1,7 @@
+stages:
+  get_data:
+    cmd: python src/data/get_data.py
+    deps:
+    - config/data_config.yaml
+    outs:
+    - data/raw
