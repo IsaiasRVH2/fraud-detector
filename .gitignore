@@ -50,11 +50,6 @@ env/
 mlruns/
 mlflow.db
 
-# DVC specific
-/dvc.lock
-/.dvc/cache
-/.dvc/tmp
-/.dvc/plots
 
 # IDE specific files
 .idea/
