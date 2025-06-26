@@ -1,5 +1,7 @@
 [core]
-    remote = gdrive
+    remote = localstorage
 ['remote "gdrive"']
     url = gdrive://1j0wymqQfm9EUK9yNaaGZGt2IQi04x4E1
     gdrive_acknowledge_abuse = true
+['remote "localstorage"']
+    url = C:\DVC\remotestorage
